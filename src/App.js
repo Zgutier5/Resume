@@ -62,6 +62,7 @@ class App extends Component {
             <Button onClick={this.handleSubmit} variant="contained" component="span">List</Button>
         </form>
         {this.listTasks()}
+        <p/>
         <Education/>
         <Skills/>
         <Experience/>
